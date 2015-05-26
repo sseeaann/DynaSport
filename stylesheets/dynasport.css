@@ -1,0 +1,256 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#header{
+	width: 100%;
+	background-color: #231E1F;
+}
+
+	#header_content{
+		width: 970px;
+		margin: 0 auto;
+	}
+
+	#header_content img{
+		width: 300px;
+	}
+
+	#header_title{
+		display: inline-block;
+		margin-left: 175px;
+		margin-top: 45px;
+		vertical-align: top;
+		color: white;
+		font-size: 26px;
+		font-weight: normal;
+		text-shadow: 3px 3px 5px black;
+	}
+
+		#header_title h2{
+			color: #C10000;
+			text-shadow: 3px 3px 5px black;
+		}
+
+		#header_title span{
+			color: #FF4000;
+		}
+
+#navbar{
+	background: linear-gradient(#FF4000, #C10000);
+	border: 1px solid #231E1F;
+}
+
+	#navlinks{
+		width: 970px;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	#navlinks ul{
+		padding: 10px 30px;
+	}	
+
+	#navlinks li{
+		display: inline;
+		padding: 0 20px;
+	}
+
+	#navlinks a {
+		text-decoration: none;
+		color: #231E1F;
+	}
+
+	#navlinks li a:hover{
+		color: white;
+		text-shadow: 4px 4px 5px #231E1F;
+	}
+
+	#sub_menu {
+		display: none;
+	}
+
+#body{
+	background: url(../img/bmw_st_johns.png) no-repeat;
+	background-size: cover;
+	min-height: 750px;
+	padding: 30px 0;
+}
+
+	#body_top{
+		margin: 0 auto;
+		width: 970px;
+		background-color: #eee;
+		background: rgba(238,238,238,0.7);
+	}
+
+		.img-circular{
+			background-image: url(../img/dynasport_white.jpg);
+			width: 120px;
+			height: 115px;
+			margin-left: 180px;
+			margin-top: 1%;
+			padding: 15px;
+			background-size: cover;
+			border-radius: 50%;
+			display: inline-block;
+			border: 2px solid #eee;
+		}
+
+		#body_location{
+			display: inline-block;
+			vertical-align: top;
+			margin-left: 40px;
+			padding: 10px;
+			width: 400px;
+			font-size: 16px;
+			letter-spacing: 3px;
+			text-align: center;
+		}
+
+		#body_location h1{
+			color: #64AFA7;
+			text-shadow: 2px 2px 3px #231E1F;
+			padding-bottom: 5px;
+		}
+
+		#body_location h2{
+			padding-bottom: 5px;
+		}
+
+		#body_location h4{
+			font-weight: normal;
+			padding: 5px 0px;
+		}
+
+	#body_main{
+		margin: 0 auto;
+		margin-top: 30px;
+		width: 970px;
+		min-height: 500px;
+		background-color: #eee;
+		background: rgba(238,238,238,0.7);
+	}
+
+	#body_left{
+		width: 240px;
+		display: inline-block;
+		vertical-align: top;
+		padding: 10px 5px;
+	}
+
+		#reviews h3{
+			padding: 5px;
+			border-bottom: 3px double #64AFA7;
+		}
+
+		#reviews p{
+			padding: 30px 5px;
+			font-style: italic;
+		}
+
+		#social_media a{
+			margin-left: 5%;
+			color: #231E1F;
+		}
+
+		#social_media img{
+			width: 35px;
+			display: inline-block;
+			vertical-align: top;
+			padding: 5px;
+			margin-top: 10px;
+		}
+
+		.fa{
+			margin: 0 5px;
+		}
+
+	#body_right{
+		display: inline-block;
+		width: 680px;
+		margin-left: 20px;
+		padding-bottom: 40px;
+	}
+
+	#body_right h1{
+		color: #64AFA7;
+		text-shadow: 2px 2px 3px #231E1F;
+		letter-spacing: 3px;
+		text-align: center;
+		padding: 10px 0;
+	}
+
+	#body_right h2{
+		text-align: center;
+		padding-bottom: 5px;
+	}
+
+	#body_right p{
+		text-shadow: 3px 3px 5px white;
+		padding: 10px 0px;
+	}
+
+
+	#footer_border{
+		background: linear-gradient(#FF4000, #C10000);
+		border: 1px solid #231E1F;
+		height: 10px;
+	}
+
+	#footer{
+		width: 100%;
+		background-color: #231E1F;
+	}
+
+		#footer_content{
+			margin: 0 auto;
+			padding: 20px 0;
+			width: 970px;
+		}
+
+			.link_column {
+				display: inline-block;
+				margin-right: 8px;
+				margin-left: 0;
+				font-size: 14px;
+				vertical-align: top;
+				width: 150px;
+				color: white;
+				font-weight: normal;
+			}
+
+			.link_column h4{
+				border-bottom: 1px solid #C10000;
+				padding: 5px 0px;
+				font-weight: bolder;
+			}
+
+			.link_column ul{
+				list-style-type: none;
+			}
+
+			.link_column li{
+				padding: 5px 0;
+				font-weight: normal;
+			}
+
+			.link_column a{
+				color: white;
+				text-decoration: none;
+			}
+
+		#footer_content img{
+			margin-left: 30px;
+		}
+
+		#footer_content p{
+			color: white;
+			font-size: 12px;
+			margin-top: 10px;
+			padding: 10px 0;
+			border-top: 1px solid #C10000; 
+		}
+
+
